@@ -4,13 +4,13 @@ relativeURLs = false
 uglyurls = true
 disableLanguageSwitchingButton=true
 
-staticDir = "\\Resources\\DPUserManualWebsite\\static"
+staticDir = "\\Resources\\WebsiteTemplate\\static"
 
 defaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
-title = "DP930 User Manual"
+title = "Data Physics SignalCalc Analyzer User Manual"
 weight = 1
 languageName = "English"
 languageCode = "en-us"

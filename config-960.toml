@@ -1,0 +1,44 @@
+baseURL = "http://127.0.0.1:1314"
+
+relativeURLs = false
+uglyurls = true
+disableLanguageSwitchingButton=true
+
+staticDir = "\\Resources\\WebsiteTemplate\\static"
+
+defaultContentLanguage = "en"
+
+[Languages]
+[Languages.en]
+title = "Data Physics SignalCalc Controller User Manual"
+weight = 1
+languageName = "English"
+languageCode = "en-us"
+
+[params]
+disableSearch = false
+ordersectionsby = "weight"
+themeVariant = "DP"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i>  Data Physics Website"
+url = "https://www.dataphysics.com/"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-question-circle'></i> Data Physics Knowledgebase"
+url = "http://distribution.dataphysics.com:4444/"
+weight = 12
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-envelope'></i>  Contact Technical Support"
+url = "https://forms.netsuite.com/app/site/crm/externalcasepage.nl?compid=ACCT118369&formid=9&h=313e790177cc06fa19b4"
+weight = 13
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-phone'></i> Call Technical Support"
+url = "http://www.dataphysics.com/contact-us/international.html"
+weight = 14
